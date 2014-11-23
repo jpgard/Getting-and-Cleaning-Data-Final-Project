@@ -95,4 +95,5 @@ finalSummary <- ddply(subset_dataMelt, .(Subject, Activity, variable), summarize
 finalSummary
 
 ##script to write table of finalSummary (remove commenting to run):
-##
+##write.table(finalSummary, file="./finalSummary.txt", row.names=FALSE)
+
